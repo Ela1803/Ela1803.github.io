@@ -1,0 +1,59 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5efff;
+}
+
+/* En-tête */
+header {
+    background-color: #e6d9ff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenu principal */
+main {
+    margin: 40px;
+    background-color: #f0e9ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Menu à droite */
+.menu {
+    position: fixed;
+    right: 0;
+    top: 150px;
+    width: 50px;
+    overflow: hidden;
+    transition: width 0.4s;
+    background-color: #d8c9ff;
+    border-radius: 10px 0 0 10px;
+}
+
+/* Effet "ascenseur" */
+.menu:hover {
+    width: 180px;
+}
+
+/* Liste du menu */
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Liens */
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: #4b3f72;
+    text-decoration: none;
+    border-bottom: 1px solid #cbbcff;
+}
+
+/* Survol */
+.menu li a:hover {
+    background-color: #ede6ff;
+}
