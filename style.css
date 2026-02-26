@@ -24,7 +24,7 @@ body {
 
 .texte-presentation {
   flex: 1;
-  color:#87B0E0;
+  color:#A0EBE3;
 }
 th { width: 500px;}
 ul {
@@ -50,7 +50,7 @@ ul {
 #contenu {
 	padding: 10px;
 	background-color:  #205A9E;  
-	color:#1360BD;
+	color:#A0EBE3;
 }  
 #infos {
 	color: #1B5294;
